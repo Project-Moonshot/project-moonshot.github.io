@@ -1008,10 +1008,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #454444;
   font-size: 18px;
   line-height: 0px;
-  font-weight: 700;
+  font-weight: 650;
   margin-bottom: 18px;
   padding-bottom: 0;
   overflow-wrap: 
+  font-family: "SF Pro Text";
 }
 
 #portfolio .portfolio-item .portfolio-info p {
