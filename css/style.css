@@ -975,6 +975,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-wrap:hover .portfolio-info h4{
   transition-duration: 0.4s;
   transform: scale(1.07) translateY(0.2px);
+  color:black;
   }
 
 #portfolio .portfolio-item {
@@ -1004,7 +1005,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .portfolio-info h4{
-  color: black;
+  color: #454444;
   font-size: 18px;
   line-height: 0px;
   font-weight: 700;
