@@ -64,20 +64,26 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
-  color: #fff;
-  width: 90px;
-  height: 90px;
+  background-image: url('../img/intro-carousel/3.jpg') ;
+  width: 80px;
+  height: 80px;
   text-align: center;
-  line-height: 0.01;
-  font-size: 35px;
+  box-shadow: 5px 5px 8px grey;
+  line-height: 25px;
+  font-size: 0px;
   border-radius: 50%;
-  right: 15px;
+  right: 20px;
   bottom: 20px;
   transition: background 0.5s;
   z-index: 11;
 }
 
+.back-to-top:hover {
+  transition: 0.5s;  
+  transform: scale(1.1);
+  box-shadow: 7px 7px 10px #525252;
+
+}
 .back-to-top i {
   padding-top: 12px;
   color: #fff;
