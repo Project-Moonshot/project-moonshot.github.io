@@ -52,14 +52,14 @@ h6 {
   display: none;
   background: #18d26e;
   color: #fff;
-  width: 44px;
-  height: 44px;
+  width: 90px;
+  height: 90px;
   text-align: center;
-  line-height: 1;
-  font-size: 16px;
+  line-height: 0.01;
+  font-size: 35px;
   border-radius: 50%;
   right: 15px;
-  bottom: 15px;
+  bottom: 20px;
   transition: background 0.5s;
   z-index: 11;
 }
