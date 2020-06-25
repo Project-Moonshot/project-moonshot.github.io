@@ -954,6 +954,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   font-family: "SF Pro Rounded";
+  font-weight: 575;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
   border-color: transparent;
 
@@ -962,20 +963,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio #portfolio-flters li:hover {
   transition: 0.3s;  
-  box-shadow: 0px 5px 12px rgba(0,0,0,0.4);
+  box-shadow: 0px 10px 12px rgba(100,100,255,0.4);
   background: #8e9ee6;
   border-color: rgba(0,0,0,0);
   color: #fff;
   font-family: "SF Pro Display";
 }
 
+
 #portfolio #portfolio-flters li.filter-active {
   transition: 0.8s;
   background-image: url('../img/filters/dark.jpg');
   color: #fff;
   border-color: rgba(0,0,0,0);
-  transform:rotate(360deg) scale(1.1);
-  box-shadow: 0px 7px 12px rgba(0,0,0,0.5);  
+  transform: rotate(360deg);
+  box-shadow: 0px 7px 12px rgba(0,0,25,0.5);  
 
 }
 
