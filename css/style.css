@@ -941,12 +941,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
   margin: 0px 15px 35px 0;
   display: inline-block;
-  padding: 10px 35px;
+  padding: 10px 17px;
   font-size: 15px;
   font-weight: 450;
   line-height: 20px;
   color: #314499;
-  border-radius: 20px;
+  border-radius: 17px;
   text-transform: uppercase;
   border: solid;
   border-width: 1px;
@@ -1011,7 +1011,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item figure {
   background: #000;
   overflow: hidden;
-  height: 240px;
+  height: 150px;
   position: relative;
   margin: 0;
   border-radius: 14px 14px 0 0;
@@ -1022,8 +1022,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: center;
-  padding: 30px;
-  height: 90px;
+  padding-left, padding-right: 0px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  height: 75px;
   border-radius: 0 0 14px 14px;
   overflow: wrap;
 }
@@ -1045,7 +1047,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #b8b8b8;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 /* Clients Section
