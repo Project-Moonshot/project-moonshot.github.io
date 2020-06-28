@@ -970,7 +970,7 @@ h6 {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: SFProText;
+  font-family: SFProText, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -1539,7 +1539,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-width: 1px;
   background: transparent;
   transition: all 250ms ease-in-out;
-  font-family: "SFRounded";
+  font-family: "SFRounded", sans-serif;
   letter-spacing: 0.2px;
   font-weight: 575;
   border-width: 0px;
@@ -1626,14 +1626,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
   margin-bottom: 18px;
   padding-bottom: 0;
   overflow-wrap: 
-  font-family: "SFProText";
+  font-family: "SFProText", sans-serif;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
   color: rgba(120,120,120,1);
-  font-family: SFProText;
+  font-family: SFProText, sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
