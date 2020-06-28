@@ -1166,7 +1166,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header h3 {
   font-size: 32px;
   color: #111;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -1635,7 +1634,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
   margin: 0;
   color: rgba(120,120,120,1);
   font-family: SFProText;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
 }
 
