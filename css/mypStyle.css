@@ -662,7 +662,7 @@ h6 {
   border-radius: 50%;
   right: 20px;
   bottom: 20px;
-  transition: background 0.5s;
+  transition: background 0.2s;
   z-index: 11;
 }
 
@@ -1532,16 +1532,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   font-weight: 400;
   line-height: 10px;
-  color: rgba(100,100,100,1);
+  color: rgba(90,90,90,1);
   border-radius: 17px;
   text-transform: none;
   border: solid;
   border-width: 1px;
-  background: transparent;
+  background: rgba(255,255,255,0.8);
   transition: all 250ms ease-in-out;
   font-family: "SFRounded", sans-serif;
   letter-spacing: 0.2px;
-  font-weight: 575;
+  font-weight: 500;
   border-width: 0px;
 
 
