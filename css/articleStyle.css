@@ -2220,7 +2220,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
     font-family: SFProText, sans-serif;
     font-size: 20px;
     font-style: italic;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.6px;
     margin-bottom: 14px;
 
 
@@ -2231,10 +2231,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
     font-weight: 300;
     line-height: 1.1;
     color: rgb(75,75,75);
-    font-size: 22px;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 .byline strong{
-    font-weight: 500;
+    font-weight: 600;
     color:rgb(50,50,50) ;
 
 }
@@ -2274,21 +2275,25 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 }
 
 .body blockquote {
-    font-family: New York Medium, sans-serif;
+    font-family: New York Medium, serif;
     text-align: center;
     font-size: 30px;
-    text-decoration: underline;
+    text-decoration: overline underline;
+    padding-top: 5px;
+    padding-bottom: 5px;
     baseline-shift: 2px;
 
 }
 
 .body a {
-    color: red;
+    color: orange;
+    font-weight: 800;
+    text-decoration: underline;
 }
 
 .body a:hover {
     transition-duration: 0.1s;
-    color: blue;
+    color: black;
     text-decoration: underline;
 }
 
