@@ -2196,17 +2196,33 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
   }
 }
 
+.addRoundness{
+    display: block;
+    border-radius: 45px 0px 45px 0px;
+    box-shadow: -2px 0px 15px rgba(0,0,0,0.3);
+}
+
 
 .title {
     font-family: SFProDisplay, sans-serif;
     font-weight: 800;
-    margin-left: 2vw; 
-    margin-right: 2vw;
     font-size: 60px;
     padding-top: 3vw;
     color: rgb(25,25,25);
     line-height: 1.1;
     margin-bottom: 5px;
+
+
+
+}
+
+.subtitle{
+    font-family: SFProText, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: -0.2px;
+    margin-bottom: 14px;
+
 
 }
 
@@ -2214,9 +2230,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
     font-family: SFProDisplay, sans-serif;
     font-weight: 300;
     line-height: 1.1;
-    margin-left: 2vw; 
-    margin-right: 2vw;
-    color: rgb(75,75,75)
+    color: rgb(75,75,75);
+    font-size: 22px;
 }
 .byline strong{
     font-weight: 500;
@@ -2230,7 +2245,52 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
     font-size: 18px;
 }
 
+.body {
+    color: rgb(40,40,40)
+}
 
+.body h2 {
+    font-family: SFProDisplay, sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.body h3 {
+    font-family: SFProDisplay, sans-serif;
+    font-weight: 600;
+    color: rgb(50,50,50);
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.body h4 {
+    font-family: SFProDisplay, sans-serif;
+    font-weight: 500;
+    color: rgb(50,50,50);
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.body blockquote {
+    font-family: New York Medium, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    baseline-shift: 2px;
+
+}
+
+.body a {
+    color: red;
+}
+
+.body a:hover {
+    transition-duration: 0.1s;
+    color: blue;
+    text-decoration: underline;
+}
 
 
 
