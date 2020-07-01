@@ -1584,11 +1584,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
   transform: scale(0.98);
 }
 
+
+
+#portfolio .portfolio-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.55);
+  transform: scale(0.98);
+}
+
 #portfolio .portfolio-wrap:hover .portfolio-info h4{
   transition-duration: 0.4s;
   transform: scale(1.03) translateY(0.2px);
   color:black;
   }
+
+#portfolio .portfolio-wrap:hover figure .link-clicks{
+    transition-duration: 0.3s;
+    transform: scale(1.2) translate(-9%, -9%);
+    background: rgba(0,0,0,0.75);   
+}
 
 #portfolio .portfolio-item {
   position: relative;
@@ -1606,6 +1619,21 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 
 }
 
+#portfolio .portfolio-item figure .link-clicks{
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  line-height: 1;
+  background: rgba(0,0,0,0.6);
+  font-size: 16px;
+  margin: 0 0 0 0;
+  padding: 5px 5px 5px 5px;
+  border-top-left-radius: 8px;
+  color: white;
+  font-family: SFRounded, sans-serif;
+  font-weight: 500;
+}
 
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
@@ -1617,6 +1645,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
   border-radius: 0 0 14px 14px;
   overflow: wrap;
 }
+
 
 #portfolio .portfolio-item .portfolio-info h4{
   color: #454444;
