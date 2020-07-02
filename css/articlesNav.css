@@ -734,6 +734,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 
+
 #header {
   padding: 30px 0;
   height: 92px;
@@ -746,10 +747,17 @@ h6 {
   z-index: 997;
 }
 
+#header a{
+    color: black;
+    background-color: rgba(255,255,255,0.6);
+    padding-bottom: 0px;
+}
+
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  text-shadow: 0px 0px 10px white;
   padding: 20px 0;
   height: 72px;
+  color: black;
   transition: all 0.3s;
 }
 
@@ -764,12 +772,13 @@ h6 {
   line-height: 1;
   font-family: "Nasa";
   font-weight: 700;
+  color: black;
   letter-spacing: 3px;
 }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: black;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
 }
@@ -778,6 +787,7 @@ h6 {
   padding: 0;
   margin: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -1550,8 +1560,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio #portfolio-flters li:hover {
   transition-duration: 0s;  
   color: white;
-  background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%)
+background: rgb(53,54,191);
+background: -moz-linear-gradient(163deg, rgba(53,54,191,1) 0%, rgba(131,58,180,1) 33%, rgba(209,16,16,1) 66%, rgba(102,0,255,1) 100%);
+background: -webkit-linear-gradient(163deg, rgba(53,54,191,1) 0%, rgba(131,58,180,1) 33%, rgba(209,16,16,1) 66%, rgba(102,0,255,1) 100%);
+background: linear-gradient(163deg, rgba(53,54,191,1) 0%, rgba(131,58,180,1) 33%, rgba(209,16,16,1) 66%, rgba(102,0,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endColorstr="#6600ff",GradientType=1);
 }
 
 
@@ -1569,44 +1582,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: 0;
 }
 
-#portfolio .portfolio-wrap {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.18);
-  transition: 0.3s;
-  border-radius: 14px 14px 14px 14px;  
 
-}
-
-#portfolio .portfolio-wrap:hover {
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.55);
-  transform: scale(0.98);
-}
-
-
-
-#portfolio .portfolio-wrap:hover {
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.55);
-  transform: scale(0.98);
-}
-
-#portfolio .portfolio-wrap:hover .portfolio-info h4{
-  transition-duration: 0s;
-  transform: scale(1.03) translateY(0.2px);
-  color:white;
-  }
-#portfolio .portfolio-wrap:hover .portfolio-info {
-    color: white;
-    background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
-}
-
-#portfolio .portfolio-wrap:hover .portfolio-info p{
-    color: white;
-}
-#portfolio .portfolio-wrap:hover figure .link-clicks{
-    transition-duration: 0.3s;
-    transform: scale(1.2) translate(-9%, -9%);
-    background: rgba(0,0,0,0.75);   
-}
 
 #portfolio .portfolio-item {
   position: relative;
@@ -2199,4 +2175,172 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+}
+
+
+.topBar {
+    background: white;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 97vw;
+}
+
+.spacing {
+    height: 70px;
+}
+
+.bcrumb {
+    background: grey;
+    margin-left: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: SFProDisplay, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: white;
+    background-image: url('../img/intro-carousel/3 copy.jpg');
+    font-size: 18px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.35);
+}
+
+.bcrumb a{
+    color: white;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.bcrumb .currentThing{
+    font-weight: 750;
+}
+
+.bcrumb a:hover {
+    transition-duration: 0.1s;
+    text-decoration: underline;
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+}
+
+
+
+#portfolio .portfolio-wrap{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#portfolio .portfolio-wrap img.thumbnail{
+    max-width: 100%;
+    border-radius: 15px 0 15px 0;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.35);
+}
+
+#portfolio .portfolio-wrap .article{
+    display: block;
+    background: white;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+
+}
+
+#portfolio .portfolio-wrap .article:hover{
+    transition-duration: 0.1s;
+    transform: scale(1.03);
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);    
+}
+
+#portfolio .portfolio-wrap .article:hover h1{
+    color: white;
+}
+
+#portfolio .portfolio-wrap .article:hover h2{
+    color: white;
+}
+
+#portfolio .portfolio-wrap .article:hover h3{
+    color: white;
+}
+
+
+
+
+#portfolio .portfolio-wrap h1 {
+    font-weight: 700;
+    color: rgb(35,35,35);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 0.5em;
+}
+
+#portfolio .portfolio-wrap h1.subsection {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: -20px;
+    margin-top: -15px;
+}
+
+#portfolio .portfolio-wrap h1.subsection:hover{
+    transition-duration: 150ms;
+    background: rgb(0,60,255);
+    background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
+    transform: scale(1.03);
+    color: white;
+    padding-left: 20px;
+}
+
+#portfolio .article h1{
+    color: black;
+    font-family: SFProDisplay,sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+    line-height: 1.1em;
+}
+
+#portfolio .article h2{
+    color: rgb(50,50,50);
+    font-family: SFProText,sans-serif;
+    font-size: 15px;
+    line-height: 1.35em;
+    margin-bottom: 3px;
+}
+
+#portfolio .article h3{
+    color: rgb(100,100,100);
+    font-family: SFProText,sans-serif;
+    font-size: 15px;
+    line-height: 1em;
+    margin-bottom: 0px;    
+}
+
+
+#portfolio .portfolio-wrap a.readMore{
+    transition-duration: 100ms;
+    color: rgb(150,150,150);
+    font-family: SFProText,sans-serif;
+    width: 100%;
+}
+
+#portfolio .portfolio-wrap a.readMore:hover{
+    transition: all ease-out;
+    color: white;
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
+    padding: 8px 8px;
+    border-radius: 10px;    
+}
+
+#portfolio .info {
+    max-width: 100%;
+    display: inline-block;
 }

@@ -2286,7 +2286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 }
 
 .byline{
-    font-family: SFProDisplay, sans-serif;
+    font-family: SFProText, sans-serif;
     font-weight: 300;
     line-height: 1.1;
     color: rgb(75,75,75);
