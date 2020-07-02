@@ -740,52 +740,32 @@ h6 {
   height: 92px;
   position: fixed;
   font-family: "Nasa";
-  left: 0;
-  top: 0;
-  right: 0;
   transition: all 0s;
   z-index: 997;
 }
 
 #header a{
+    position: fixed;
     color: black;
-    background-color: rgba(255,255,255,0.6);
-    padding-bottom: 0px;
+    background-color: rgba(255,255,255,1);
+    padding-bottom: 3px;
+    padding-top: 5px;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
 }
 
-#header.header-scrolled {
-  text-shadow: 0px 0px 10px white;
-  padding: 20px 0;
-  height: 72px;
-  color: black;
-  transition: all 0.3s;
+#header a:hover{
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);   
+    transition-duration: 50ms;
+    color: white;    
+    transition: all 0s ease-out;
 }
 
-#header #logo {
-  float: left;
-}
-
-#header #logo h1 {
-  font-size: 35px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-family: "Nasa";
-  font-weight: 700;
-  color: black;
-  letter-spacing: 3px;
-}
-
-#header #logo h1 a,
-#header #logo h1 a:hover {
-  color: black;
-  padding-left: 10px;
-  border-left: 4px solid #18d26e;
-}
-
-#header #logo img {
-  padding: 0;
-  margin: 0;
+#header a:hover:after{
+    transition: all 0s ease-out;
 }
 
 
@@ -2341,8 +2321,7 @@ hr{
     width: 100%;
     text-align: center;
     border-radius: 10px;   
-    padding: 20px 15px;
-    margin-top: -13px;
+    padding: 10px 10px;
 }
 
 #portfolio .portfolio-wrap a.readMore:hover{
@@ -2355,4 +2334,99 @@ hr{
 #portfolio .info {
     max-width: 100%;
     display: inline-block;
+}
+
+
+#header .topRight {
+    position: fixed;
+    top: 16px;
+    right: 25px;
+    cursor: pointer;
+    font-family: SFProDisplay, sans-serif;
+    font-weight: 700;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+#header a.topRight:hover{
+    transition-duration: 50ms;
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);    
+    text-decoration: underline;
+    color: white;
+    text-shadow: none;
+}
+
+/* The side navigation menu */
+#header .sidenav {
+  font-family: SFProDisplay, sans-serif;
+  text-shadow: none;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+#header .sidenav a {
+  padding: 8px 8px 8px 14px;
+  background: transparent;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  color: white;
+  display: block;
+  transition: 0.3s;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  max-width: 90%;
+  margin: 5px auto;
+  line-height: 1em;
+}
+
+/* When you mouse over the navigation links, change their color */
+#header .sidenav a:hover {
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);
+    text-decoration: underline;
+
+}
+
+/* Position and style the close button (top right corner) */
+#header .sidenav a.closebtn{
+  position: absolute;
+  background: transparent;
+  padding: 25px 25px;
+  border-radius: 25px;
+  top: 10px;
+  right: 15px;
+  font-size: 36px;
+  line-height: 0;
+  margin-left: 50px;
+  margin-bottom: 15px;
+
+}
+
+#header .sidenav a.closebtn:hover {
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);    
+    text-decoration: none;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

@@ -25,7 +25,7 @@
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/articlesNav.css" rel="stylesheet">
+  <link href="css/test.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: BizPage
@@ -41,7 +41,7 @@
     Header
   ============================-->
   <header id="header">
-    <div class="container-fluid">
+
 
       <div id="logo" class="pull-left">
         <h1 style="letter-spacing: 2px;font-family: Nasa"><a href="#intro" class="scrollto">Project Moonshot 🚀</a></h1>
@@ -49,26 +49,21 @@
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
+      <a class="topRight" onclick="openNav()">
+        Menu </a>
+
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <hr style="border: 1px solid white;">
+          <a href="">First Link</a>
+          <a href="">Second Link</a>
+
+      </div>
+
   </header><!-- #header -->
+    <!--==========================
+      Portfolio Section
+    ============================-->
 
 
   <main>
@@ -83,10 +78,155 @@
       
       </div>
 
-     
 
-  </main>
+    <section id="portfolio"  class="section-bg" style="background: white">
+      <div class="container">
 
+        <header class="section-header">
+          <h1 style="font-weight: 800; color: black; font-size: 70px; margin-top: -35px;">Articles</h1>
+          <hr>
+        </header>
+
+    <div height = "50" style="" class="row">
+
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12 wow fadeIn">
+
+	            <div class="portfolio-wrap"> 
+                  <a href=""><h1 class = "subsection">Beginner</h1></a>
+                  <hr>
+                
+                <a href="#">
+                  <div class="article">
+                    <div style="width: 100%">
+                      <img class = "thumbnail" src="img/articles/beg-spacedrepetition.jpg">
+                    </div>
+
+                    <div class="info">
+                      <h1>🔬 The Science Behind Spaced Repetition</h1>
+    
+                      <h3>3 min read</h3>
+                    </div>
+
+                  </div>
+                </a>
+                <hr>
+
+                <a href="#">
+                  <div class="article">
+                    <div style="width: 100%">
+                      <img class = "thumbnail" src="img/about-bg.jpg">
+                    </div>
+
+                    <div class="info">
+                      <h1>🔬 The Science Behind Spaced Repetition</h1>
+    
+                      <h3>3 min read</h3>
+                    </div>
+
+                  </div>
+                </a>
+                <hr>
+
+                <a href="#">
+                  <div class="article">
+                    <div style="width: 100%">
+                      <img class = "thumbnail" src="img/intro-carousel/1.jpg">
+                    </div>
+
+                    <div class="info">
+                      <h1>🔬 The Science Behind Spaced Repetition</h1>
+    
+                      <h3>3 min read</h3>
+                    </div>
+
+                  </div>
+                </a>
+                <hr style="padding-bottom: 0px">                                
+
+                <a class = "readMore" href="">See More...</a>
+	            </div>
+            </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 col-6 wow fadeIn">
+
+              <div class="portfolio-wrap"> 
+                  <a href=""><h1 class = "subsection">Intermediate</h1></a>
+                  <hr>
+                
+                <a href="#">
+                  <div class="article">
+                    <div class="info">
+                      <h1>Spaced Repetition</h1>
+                      <h3>3 min read</h3>
+                    </div>
+
+                </div>
+              </a>
+
+                <a href="#"><div class="article">
+                  <h1>Active Recall</h1>
+                  <h3>3 min read</h3>
+                </div></a>
+
+                <a href="#"><div class="article">
+                  <h1>Anki</h1>
+                  <h3>3 min read</h3>
+                </div></a>
+
+                <a href="#"><div class="article">
+                  <h1>Article Title</h1>
+
+                  <h3>3 min read</h3>
+                </div></a>
+
+                <hr>
+                <a class = "readMore" href="">See More...</a>
+              </div>
+            </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-6 wow fadeIn">
+
+              <div class="portfolio-wrap"> 
+                  <a href=""><h1 class = "subsection">Advanced</h1></a>
+                  <hr>
+                
+                <a href="#">
+                  <div class="article">
+                    <div class="info">
+                      <h1>Spaced Repetition</h1>
+    
+                      <h3>3 min. read</h3>
+                    </div>
+
+                </div>
+              </a>
+
+                <a href="#"><div class="article">
+                  <h1>Active Recall</h1>
+
+                  <h3>3 min. read</h3>
+                </div></a>
+
+                <a href="#"><div class="article">
+                  <h1>Anki</h1>
+
+                  <h3>3 min. read</h3>
+                </div></a>
+
+                <a href="#"><div class="article">
+                  <h1>Article Title</h1>
+
+                  <h3>3 min. read</h3>
+                </div></a>
+
+                <hr>
+                <a class = "readMore" href="">See More...</a>
+              </div>
+            </div>            
+        </div>
+
+      </div>
+
+    </section><!-- #portfolio -->
 
   <!--==========================
     Footer
@@ -182,7 +322,7 @@
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/article.js"></script>
+  <script src="js/test.js"></script>
 
 </body>
 </html>
