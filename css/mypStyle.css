@@ -1550,8 +1550,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio #portfolio-flters li:hover {
   transition-duration: 0s;  
   color: white;
-  background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%)
+    background: rgb(0,60,255);
+    background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
 }
 
 

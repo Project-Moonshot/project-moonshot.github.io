@@ -656,7 +656,7 @@ h6 {
   width: 80px;
   height: 80px;
   text-align: center;
-  box-shadow: 5px 5px 8px grey;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
   line-height: 25px;
   font-size: 0px;
   border-radius: 50%;
@@ -2218,8 +2218,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 .bcrumb a:hover {
     transition-duration: 0.1s;
     text-decoration: underline;
-    background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
+    background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
     text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
 }
 
@@ -2234,7 +2234,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 #portfolio .portfolio-wrap img.thumbnail{
     max-width: 100%;
     border-radius: 15px 0 15px 0;
-    box-shadow: 0px 0px 7px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.35);
 }
 
 #portfolio .portfolio-wrap .article{
@@ -2248,7 +2248,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
     border-radius: 10px;
     border-width: 1px;
     border-color: black;
-
+    margin-bottom: -12px;
+    margin-top: -15px;
 }
 
 #portfolio .portfolio-wrap .article:hover{
@@ -2273,21 +2274,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 
 
 
-#portfolio .portfolio-wrap h1 {
-    font-weight: 700;
-    color: rgb(35,35,35);
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    line-height: 0.5em;
-}
 
 #portfolio .portfolio-wrap h1.subsection {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    font-weight: 700;
+    color: rgb(35,35,35);
+    padding-bottom: 15px;
+    padding-top: 15px;
     border-radius: 10px;
     text-align: left;
     margin-bottom: -20px;
-    margin-top: -15px;
+    margin-top: -30px;
+    padding-left: 15px;
 }
 
 #portfolio .portfolio-wrap h1.subsection:hover{
@@ -2301,16 +2298,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 
 #portfolio .article h1{
     color: black;
+    font-weight: 700;
     font-family: SFProDisplay,sans-serif;
     font-size: 25px;
     padding-top: 5px;
-    line-height: 1.1em;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+hr{
+
 }
 
 #portfolio .article h2{
     color: rgb(50,50,50);
     font-family: SFProText,sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 1.35em;
     margin-bottom: 3px;
 }
@@ -2318,26 +2323,32 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3536bf",endCo
 #portfolio .article h3{
     color: rgb(100,100,100);
     font-family: SFProText,sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1em;
     margin-bottom: 0px;    
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 
 #portfolio .portfolio-wrap a.readMore{
+    display: block;
+    position: relative;
     transition-duration: 100ms;
     color: rgb(150,150,150);
     font-family: SFProText,sans-serif;
     width: 100%;
+    text-align: center;
+    border-radius: 10px;   
+    padding: 10px 10px;
 }
 
 #portfolio .portfolio-wrap a.readMore:hover{
     transition: all ease-out;
-    color: white;
-    background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
-    padding: 8px 8px;
-    border-radius: 10px;    
+    color: white; 
+    background: rgb(0,60,255);
+    background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);    
 }
 
 #portfolio .info {
