@@ -746,10 +746,15 @@ h6 {
   z-index: 997;
 }
 
+#header a{
+    color: black;
+}
+
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  text-shadow: 0px 0px 10px white;
   padding: 20px 0;
   height: 72px;
+  color: black;
   transition: all 0.3s;
 }
 
@@ -764,12 +769,13 @@ h6 {
   line-height: 1;
   font-family: "Nasa";
   font-weight: 700;
+  color: black;
   letter-spacing: 3px;
 }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: black;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
 }
