@@ -379,7 +379,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition-duration: 50ms;
     background: rgb(255,195,0);
     background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);    
-    text-decoration: underline;
     color: white;
     text-shadow: none;
 }
@@ -415,9 +414,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 15px;
   letter-spacing: 1px;
   max-width: 90%;
-  margin: 5px auto;
+  margin: 5px 10px;
   line-height: 1;
 }
+
 
 /* When you mouse over the navigation links, change their color */
 #header .sidenav a:hover {
