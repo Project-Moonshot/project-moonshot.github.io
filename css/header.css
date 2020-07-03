@@ -1,0 +1,456 @@
+/*
+  Theme Name: BizPage
+  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+
+
+#header {
+  padding: 30px 0;
+  height: 92px;
+  position: fixed;
+  font-family: "Nasa";
+  transition: all 0s;
+  z-index: 997;
+}
+
+#header a{
+    position: fixed;
+    color: black;
+    background-color: rgba(255,255,255,1);
+    padding-bottom: 3px;
+    padding-top: 5px;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+#header a:hover{
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);   
+    transition-duration: 50ms;
+    color: white;    
+    transition: all 0s ease-out;
+}
+
+#header a:hover:after{
+    transition: all 0s ease-out;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/* Nav Menu Essentials */
+
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+}
+
+/* Nav Menu Arrows */
+
+.sf-arrows .sf-with-ul {
+  padding-right: 30px;
+}
+
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: SFProText, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
+
+/* Nav Meu Container */
+
+#nav-menu-container {
+  float: right;
+  margin: 0;
+}
+
+/* Nav Meu Styling */
+
+.nav-menu a {
+  padding: 0 8px 10px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "SFProText", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.nav-menu li:hover > a,
+.nav-menu > .menu-active > a {
+  color: #18d26e;
+}
+
+.nav-menu > li {
+  margin-left: 10px;
+}
+
+.nav-menu ul {
+  margin: 4px 0 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #fff;
+}
+
+.nav-menu ul li {
+  transition: 0.3s;
+}
+
+.nav-menu ul li a {
+  padding: 10px;
+  color: #333;
+  transition: 0.3s;
+  display: block;
+  font-size: 13px;
+  text-transform: none;
+}
+
+.nav-menu ul li:hover > a {
+  color: #18d26e;
+}
+
+.nav-menu ul ul {
+  margin: 0;
+}
+
+/* Mobile Nav Toggle */
+
+#mobile-nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin: 20px 20px 0 0;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+#mobile-nav-toggle i {
+  color: #fff;
+}
+
+/* Mobile Nav Styling */
+
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.8);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.4s;
+}
+
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#mobile-nav ul li {
+  position: relative;
+}
+
+#mobile-nav ul li a {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-weight: 700;
+  font-family: "SFProText", sans-serif;
+}
+
+#mobile-nav ul li a:hover {
+  color: #18d26e;
+}
+
+#mobile-nav ul li li {
+  padding-left: 30px;
+}
+
+#mobile-nav ul li.menu-active a {
+  color: #18d26e;
+}
+
+#mobile-nav ul .menu-has-children i {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+  color: #18d26e;
+}
+
+#mobile-nav ul .menu-has-children li a {
+  text-transform: none;
+}
+
+#mobile-nav ul .menu-item-active {
+  color: #18d26e;
+}
+
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+/* Mobile Nav body classes */
+
+body.mobile-nav-active {
+  overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
+    padding: 20px 0;
+  }
+
+  #contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+}
+
+@media (min-width: 992px) {
+  #testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #header #logo {
+    padding-left: 60px;
+  }
+
+  #intro p {
+    width: 60%;
+  }
+
+  #intro .carousel-control-prev,
+  #intro .carousel-control-next {
+    width: 5%;
+  }
+
+  #nav-menu-container {
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  #header .topRight{
+    position: relative;
+    padding-top: 0px;
+    background: red;
+  }
+
+  #header #logo h1 {
+    position: fixed;
+    font-size: 20px;
+    margin-top: 20px;
+    top: 15px;
+  }
+
+  #header #logo img {
+    max-height: 40px;
+  }
+
+  #intro h2 {
+    font-size: 28px;
+  }
+
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+
+#header .topRight {
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    cursor: pointer;
+    font-family: SFProDisplay, sans-serif;
+    font-weight: 700;
+    background: white;
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+#header a.topRight:hover{
+    transition-duration: 50ms;
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);    
+    text-decoration: underline;
+    color: white;
+    text-shadow: none;
+}
+
+/* The side navigation menu */
+#header .sidenav {
+  font-family: SFProDisplay, sans-serif;
+  text-shadow: none;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+#header .sidenav a {
+    position: relative;
+  padding: 8px 8px 8px 14px;
+  background: transparent;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  color: white;
+  display: block;
+  transition: 0.3s;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  max-width: 90%;
+  margin: 5px auto;
+  line-height: 1;
+}
+
+/* When you mouse over the navigation links, change their color */
+#header .sidenav a:hover {
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);
+    text-decoration: underline;
+
+}
+
+/* Position and style the close button (top right corner) */
+#header .sidenav a.closebtn{
+  position: absolute;
+  background: transparent;
+  padding: 25px 25px;
+  border-radius: 25px;
+  top: 10px;
+  right: 15px;
+  font-size: 36px;
+  line-height: 0;
+  margin-left: 50px;
+  margin-bottom: 15px;
+
+}
+
+#header .sidenav a.closebtn:hover {
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);    
+    text-decoration: none;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

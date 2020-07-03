@@ -11,8 +11,7 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +24,8 @@
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
+  <link href="css/fontsheet.css" rel="stylesheet">   <!-- Font -->  
+  <link href="css/header.css" rel="stylesheet">  
   <link href="css/articleStyle.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -37,38 +38,35 @@
 
 <body>
 
+
+
   <!--==========================
     Header
-  ============================-->
+=============================-->
   <header id="header">
-    <div class="container-fluid">
+
 
       <div id="logo" class="pull-left">
-        <h1 style="letter-spacing: 2px;font-family: Nasa"><a href="#intro" class="scrollto">Project Moonshot 🚀</a></h1>
+        <h1 style="letter-spacing: 2px;font-family: Nasa"><a href="#intro" class="scrollto">Project Moonshot</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
+      <a class="topRight" onclick="openNav()">
+        Menu </a>
+
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <hr style="border: 1px solid white;">
+          <a href="">First Link</a>
+          <a href="">Second Link</a>
+
+      </div>
+
   </header><!-- #header -->
+    <!--==========================
+      Portfolio Section
+    ============================-->
 
 
   <main>
@@ -101,7 +99,7 @@
           <p class="subtitle">How does spaced repetition work, and how can you use it to your advantage?</p>
           <hr>          
           <h2 class="byline"> by <strong>Hamza Shaikh</strong> and <strong>Raghav Chutani</strong></h2>
-          <h3 class = "meta" style = "font-family: SFProText, sans-serif;font-size: 15px; margin-top: 0px;"> 1 July 2020 ✪ 3 min. read</h3>
+          <h3 class = "meta" style = "font-family: SFProText, sans-serif;font-size: 15px; margin-top: 0px; color: rgb(150,150,150);font-weight: 400;"> 1 July 2020 ✪ 3 min read</h3>
         </div>
 
         <div class = "col-lg-1 col-sm-0"></div>
@@ -145,12 +143,12 @@
 </ul>
 
 <blockquote>
-<p>"Quote from John"</p>
+<p>Doe, John is a normal student. He goes to a great school, procrastinates on his personal project drafts and complains about how much work he has; just like everyone else. John is male, 5’9&nbsp;and he’s not super special in any other way, he’s average. The purposes of this description are not to belittle John for not being special, but to show that John is a normal person.</p>
 </blockquote>
 
 <hr />
 
-<figure><img src="Apple%20Watch.jpg" class = "img-fluid addRoundness" alt="Basketistan Image"/><figcaption>Basketistan Image</figcaption></figure>
+<figure><img src="Apple%20Watch.jpg" class = "img-fluid" alt="Basketistan Image"/><figcaption>Basketistan Image</figcaption></figure>
 
 <hr />
 
@@ -302,7 +300,7 @@
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/article.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>
