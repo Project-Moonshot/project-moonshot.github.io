@@ -274,66 +274,6 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 
-/* Nav Menu Essentials */
-
-.nav-menu,
-.nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-menu ul {
-  position: absolute;
-  display: none;
-  top: 100%;
-  left: 0;
-  z-index: 99;
-}
-
-.nav-menu li {
-  position: relative;
-  white-space: nowrap;
-}
-
-.nav-menu > li {
-  float: left;
-}
-
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
-  display: block;
-}
-
-.nav-menu ul ul {
-  top: 0;
-  left: 100%;
-}
-
-.nav-menu ul li {
-  min-width: 180px;
-}
-
-/* Nav Menu Arrows */
-
-.sf-arrows .sf-with-ul {
-  padding-right: 30px;
-}
-
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: SFProText, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
-}
-
-
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -1179,4 +1119,41 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
   #testimonials .testimonial-item p {
     width: 80%;
   }
+}
+
+
+
+
+#portfolio .portfolio-container img{
+  width: 125%;
+  height: auto;
+  margin-top: -5%;
+  margin-left: -7%;
+}
+
+#portfolio  a.more{
+  position: relative;
+  display: inline;
+  color: rgba(0,0,0,0.6);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: inline;
+  font-family: SFProDisplay, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    text-decoration: underline;
+  padding-right: 50px;
+
+}
+
+#portfolio  a.more:hover{
+  transition-duration: 0.1s;
+text-decoration: none;
+  color: white;
+background: rgb(255,175,0);
+background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 }
