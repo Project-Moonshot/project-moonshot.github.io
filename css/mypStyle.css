@@ -691,7 +691,7 @@ h6 {
 /* Portfolio Section
 --------------------------------*/
 
-  .section-header .section-title {
+.section-header .section-title {
     font-size: 70px;
   }
 
@@ -1157,6 +1157,11 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
+@media (max-width: 768px) {
+    .section-header .section-title {
+    font-size: 40px;
+  }
+}
 @media (min-width: 768px) {
   #contact .contact-address,
   #contact .contact-phone,
