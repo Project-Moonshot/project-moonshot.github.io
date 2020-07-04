@@ -5,6 +5,10 @@
   License: https://bootstrapmade.com/license/
 */
 
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
 
 
 #header {
@@ -12,97 +16,91 @@
   height: 92px;
   position: fixed;
   font-family: "Nasa";
+  left: 0;
+  top: 0;
+  right: 0;
   transition: all 0s;
   z-index: 997;
 }
 
-#header a{
-    position: fixed;
-    color: black;
-    background-color: rgba(255,255,255,1);
-    padding-bottom: 3px;
-    padding-top: 5px;
-    top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
+#header.header-scrolled {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 0;
+  height: 72px;
+  transition: all 0.3s;
+
 }
 
-#header a:hover{
-    background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);   
-    transition-duration: 50ms;
-    color: white;    
-    transition: all 0s ease-out;
-}
-
-#header a:hover:after{
-    transition: all 0s ease-out;
-}
-
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-
-/* Nav Menu Essentials */
-
-.nav-menu,
-.nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-menu ul {
-  position: absolute;
-  display: none;
-  top: 100%;
-  left: 0;
-  z-index: 99;
-}
-
-.nav-menu li {
-  position: relative;
-  white-space: nowrap;
-}
-
-.nav-menu > li {
+#header #logo {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
-  display: block;
+#header #logo h1 {
+    color: black;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Nasa";
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 
-.nav-menu ul ul {
-  top: 0;
-  left: 100%;
+#header a{
+    color: black;
+}
+#header #logo h1 a {
+  color: black;
+  padding-left: 10px;
+  color: black;
+  border-radius: 5px;
 }
 
-.nav-menu ul li {
-  min-width: 180px;
+#header #logo h1 a:hover{
+    transition-duration: 0.1s;
+    color: white;
+background: rgb(255,175,0);
+background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 }
 
-/* Nav Menu Arrows */
-
-.sf-arrows .sf-with-ul {
-  padding-right: 30px;
+#header #logo img {
+  padding: 0;
+  margin: 0;
 }
 
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: SFProText, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+#header .nav-menu a{
+    color:black;
+    font-family: SFProDisplay, sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    letter-spacing: 0.3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -10px;
 }
 
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
+#header .nav-menu a.current{
+  font-weight: 800;
 }
+
+#header .nav-menu a.current:hover{
+  background: none;
+  color: black;
+  cursor: default;
+
+}
+
+#header .nav-menu a:hover{
+    transition-duration: 0.1s;
+        background: rgb(0,60,255);
+        background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
+    color: white;
+}
+
+
+
 
 /* Nav Meu Container */
 
@@ -118,12 +116,17 @@
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "SFProText", sans-serif;
+  font-family: "SFProDisplay", sans-serif;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
   outline: none;
 }
+
+.nav-menu a.current{
+  color: red;
+}
+
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
@@ -169,7 +172,7 @@
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 20px 20px 0 0;
+  margin: 15px 20px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -177,10 +180,15 @@
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
+
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: black;
+}
+
+#mobile-nav-toggle i:hover {
+  color: #ff7700;
 }
 
 /* Mobile Nav Styling */
@@ -188,14 +196,15 @@
 #mobile-nav {
   position: fixed;
   top: 0;
-  padding-top: 18px;
+  padding-top: 10px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background: white;
   left: -260px;
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
+
 }
 
 #mobile-nav ul {
@@ -209,7 +218,7 @@
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+color: black;
   font-size: 13px;
   text-transform: uppercase;
   overflow: hidden;
@@ -219,21 +228,23 @@
   width: 100%;
   display: block;
   outline: none;
-  font-weight: 700;
-  font-family: "SFProText", sans-serif;
+  font-weight: 600;
+  font-family: "SFProDisplay", sans-serif;
 }
 
 #mobile-nav ul li a:hover {
-  color: #18d26e;
+    transition-duration: 0.1s;
+        background: rgb(0,60,255);
+
+        background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.25);
+    color: white;
 }
 
 #mobile-nav ul li li {
   padding-left: 30px;
 }
 
-#mobile-nav ul li.menu-active a {
-  color: #18d26e;
-}
 
 #mobile-nav ul .menu-has-children i {
   position: absolute;
@@ -244,9 +255,6 @@
   color: #fff;
 }
 
-#mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #18d26e;
-}
 
 #mobile-nav ul .menu-has-children li a {
   text-transform: none;
@@ -282,28 +290,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-/*--------------------------------------------------------------
-# Responsive Media Queries
---------------------------------------------------------------*/
-
-@media (min-width: 768px) {
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
-    padding: 20px 0;
-  }
-
-  #contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-}
-
-@media (min-width: 992px) {
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
 
 @media (min-width: 1024px) {
   #header #logo {
@@ -324,22 +310,38 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+@media (max-width: 1150px){
+    #header #logo h1 {
+        font-size: 30px;
+    }
+
+    #header .nav-menu a{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 900px){
+
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
 
-  #header .topRight{
-    position: relative;
-    padding-top: 0px;
-    background: red;
-  }
-
   #header #logo h1 {
-    position: fixed;
-    font-size: 20px;
-    margin-top: 20px;
-    top: 15px;
+    font-size: 28px;
+    margin-left: 0px;
   }
 
   #header #logo img {
@@ -357,100 +359,173 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+
+  .section-header .section-title {
+    font-size: 40px;
+  }
 }
 
 
-#header .topRight {
-    position: fixed;
-    top: 10px;
-    right: 25px;
-    cursor: pointer;
-    font-family: SFProDisplay, sans-serif;
-    font-weight: 700;
-    background: white;
-    padding: 5px;
-    border-radius: 20px;
-    padding-left: 13px;
-    padding-right: 13px;
 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+  background: #000;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
 }
 
-#header a.topRight:hover{
-    transition-duration: 50ms;
-    background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);    
-    color: white;
-    text-shadow: none;
+#footer .footer-top {
+  background: #111;
+  padding: 60px 0 30px 0;
 }
 
-/* The side navigation menu */
-#header .sidenav {
-  font-family: SFProDisplay, sans-serif;
-  text-shadow: none;
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0.8); /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
 }
 
-/* The navigation menu links */
-#header .sidenav a {
-    position: relative;
-  padding: 8px 8px 8px 14px;
-  background: transparent;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: 700;
-  text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
-  color: white;
-  display: block;
-  transition: 0.3s;
-  border-radius: 15px;
-  letter-spacing: 1px;
-  max-width: 90%;
-  margin: 5px 10px;
+#footer .footer-top .footer-info h3 {
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 10px;
   line-height: 1;
+  font-family: "SFProDisplay", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-left: 4px solid #18d26e;
 }
 
-
-/* When you mouse over the navigation links, change their color */
-#header .sidenav a:hover {
-    background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);
-    text-decoration: underline;
-
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "SFProText", sans-serif;
+  color: #eee;
 }
 
-/* Position and style the close button (top right corner) */
-#header .sidenav a.closebtn{
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #18d26e;
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top h4::before,
+#footer .footer-top h4::after {
+  content: '';
   position: absolute;
-  background: transparent;
-  padding: 25px 25px;
-  border-radius: 25px;
-  top: 10px;
-  right: 15px;
-  font-size: 36px;
-  line-height: 0;
-  margin-left: 50px;
-  margin-bottom: 15px;
-
+  left: 0;
+  bottom: 0;
+  height: 2px;
 }
 
-#header .sidenav a.closebtn:hover {
-    background: rgb(255,195,0);
-    background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,20,0,1) 100%);    
-    text-decoration: none;
+#footer .footer-top h4::before {
+  right: 0;
+  background: #555;
 }
 
+#footer .footer-top h4::after {
+  background: #18d26e;
+  width: 60px;
+}
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 8px;
+  color: #ddd;
+}
+
+#footer .footer-top .footer-links ul li {
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #eee;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #18d26e;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #18d26e;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #13a456;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #ddd;
 }
