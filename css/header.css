@@ -408,7 +408,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "SFProText", sans-serif;
+  font-family: "SFProDisplay", sans-serif;
   color: #eee;
 }
 
@@ -587,7 +587,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: SFProText, sans-serif;
+  font-family: SFProDisplay, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
