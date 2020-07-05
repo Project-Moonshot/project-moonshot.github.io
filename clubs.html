@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171618440-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -21,6 +22,7 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
+
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -31,10 +33,10 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- CSS Files -->
-  <link href="css/fontsheet.css" rel="stylesheet">   <!-- Font -->
-  <link href="css/header.css" rel="stylesheet">   <!-- Header -->  
-  <link href="css/articlesNav.css" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+    <link href="css/fontsheet.css" rel="stylesheet">
+<link rel="stylesheet" href="css/header.css">
+  <link href="css/mypStyle.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: BizPage
@@ -48,12 +50,12 @@
 
   <!--==========================
     Header
-=============================-->
+  ============================-->
   <header id="header">
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1 style="letter-spacing: 1px;font-family: Nasa"><a href="https://project-moonshot.github.io">Project Moonshot 🚀</a></h1>
+        <h1 style="letter-spacing: 1px;font-family: Nasa"><a href="#intro" class="scrollto">Project Moonshot 🚀</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
@@ -61,13 +63,14 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="https://project-moonshot.github.io/dp">DP</a></li>
-          <li><a href = "https://project-moonshot.github.io/myp">MYP</a></li>
+          <li><a href="https://project-moonshot.github.io/myp">MYP</a></li>
           <li><a href="https://project-moonshot.github.io/cp">CP</a></li>          
-          <li><a class = "current" title = "You're already on this page!">Articles</a></li>
+          <li><a href="https://project-moonshot.github.io/articles">Articles</a></li>
           <li><a href="https://project-moonshot.github.io/teacher">Teacher</a></li>
-          <li><a href="https://project-moonshot.github.io/clubs">Clubs</a></li>
+          <li><a class = "current" title = "You're already on this page!">Clubs</a></li>
           <li><a href="https://project-moonshot.github.io/about">About</a></li>          
           <li><a href="https://project-moonshot.github.io/contact">Contact</a></li>
+   	
 
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -76,166 +79,141 @@
     <!--==========================
       Portfolio Section
     ============================-->
-
-
-  <main style="background: rgb(247,247,247);">
-<br><br><br><br>
-          <div class="bcrumb">
-          <span class="currentThing">Articles</span>
-  </div>
-  <br><br><br>
-   
-    
-
-    <section id="portfolio"  class="section-bg" style="background: rgb(247,247,247);">
+    <section id="portfolio"  class="section-bg">
       <div class="container">
 
         <header class="section-header">
-          <h1 style="font-weight: 800; color: black; font-size: 70px; margin-top: 10px; margin-bottom: 0px;">📝 Articles</h1>
-          <p style="font-family: SFProText, sans-serif; margin-bottom: 0px">The best information on learning, written by the Project Moonshot Team and contributors. </p>
-          <hr>
+          <br><br>
+          <img height = "73" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 0px" src="img/clubs/dia.png" alt="">
+          <h3 class="section-title"><a style="color: black; font-family: SFProDisplay, sans-serif; text-transform: none; font-weight: 800;">Clubs @ DIA</a></h3>
         </header>
 
-    <div height = "50" style="" class="row">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" style="padding-left: 20px; padding-right: 20px; border-radius: 25px" class="filter-active">All</li>
+              <li data-filter=".filter-Positions">Positions Open</li>
+              <li data-filter=".filter-SA">SA Opportunities </li>
+              <li data-filter=".filter-Report">Research Report</li>
+              <li data-filter=".filter-PersonalProject">Personal Project</li>
 
-			<div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
 
-	            <div class="portfolio-wrap"> 
-                  <a href=""><h1 class = "subsection">Beginner</h1></a>
-                  <hr>
-                
-                <a href="#">
-                  <div class="article">
-                    <div style="width: 100%">
-                      <img class = "thumbnail" src="https://project-moonshot.github.io/img/articles/beg-spacedrepetition.jpg">
-                    </div>
+              <br><br>
 
-                    <div class="info">
-                      <h1 style="text-align: center;">🔬 The Science Behind Spaced Repetition</h1>
-                      <h2>By Hamza & Raghav</h2>
-                      <h3>3 min read</h3>
-                    </div>
+              <li data-filter=".filter-Math">📐 Math</li>
+              <li data-filter=".filter-English">✏️ English</li>
+              <li data-filter=".filter-Physics">🍎 Physics</li>
+              <li data-filter=".filter-Chemistry">⚗️ Chemistry</li>
+              <li data-filter=".filter-Biology">🔬 Biology</li>
+              <li data-filter=".filter-Business">🤑 Business</li>
+              <li data-filter=".filter-Economics">💰 Economics</li>
+              <li data-filter=".filter-Geography">🌍 Geography</li>
+              <li data-filter=".filter-History">📜 History</li>
 
-                  </div>
-                </a>
-                <hr>
 
-                <a href="#">
-                  <div class="article">
-                    <div style="width: 100%">
-                      <img class = "thumbnail" src="https://project-moonshot.github.io/img/about-bg.jpg">
-                    </div>
 
-                    <div class="info">
-                      <h1>🔬 The Science Behind Spaced Repetition</h1>
-    
-                      <h3>3 min read</h3>
-                    </div>
+            </ul>
 
-                  </div>
-                </a>
-                <hr>
-
-                <a href="#">
-                  <div class="article">
-                    <div style="width: 100%">
-                      <img class = "thumbnail" src="https://project-moonshot.github.io/img/intro-carousel/1.jpg">
-                    </div>
-
-                    <div class="info">
-                      <h1>🔬 The Science Behind Spaced Repetition</h1>
-    
-                      <h3>3 min read</h3>
-                    </div>
-
-                  </div>
-                </a>
-                <hr>                                
-
-                <a class = "readMore" href="">See More...</a>
-	            </div>
-            </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
-
-              <div class="portfolio-wrap"> 
-                  <a href=""><h1 class = "subsection">Intermediate</h1></a>
-                  <hr>
-                
-                <a href="#">
-                  <div class="article">
-                      <h1>Spaced Repetition</h1>
-                      <h3>3 min read</h3>
-
-                </div>
-              </a>
-              <hr>
-
-                <a href="#"><div class="article">
-                  <h1>Active Recall</h1>
-                  <h3>3 min read</h3>
-                </div></a>
-<hr>
-                <a href="#"><div class="article">
-                  <h1>Anki</h1>
-                  <h3>3 min read</h3>
-                </div></a>
-<hr>
-                <a href="#"><div class="article">
-                  <h1>Article Title</h1>
-
-                  <h3>3 min read</h3>
-                </div></a>
-<hr>
-                <hr>
-                <a class = "readMore" href="">See More...</a>
-              </div>
-            </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
-
-              <div class="portfolio-wrap"> 
-                  <a href=""><h1 class = "subsection">Advanced</h1></a>
-                  <hr>
-                
-                <a href="#">
-                  <div class="article">
-                    <div class="info">
-                      <h1>Spaced Repetition</h1>
-    
-                      <h3>3 min. read</h3>
-                    </div>
-
-                </div>
-              </a>
-
-                <a href="#"><div class="article">
-                  <h1>Active Recall</h1>
-
-                  <h3>3 min. read</h3>
-                </div></a>
-
-                <a href="#"><div class="article">
-                  <h1>Anki</h1>
-
-                  <h3>3 min. read</h3>
-                </div></a>
-
-                <a href="#"><div class="article">
-                  <h1>Article Title</h1>
-
-                  <h3>3 min. read</h3>
-                </div></a>
-
-                <hr>
-                <a class = "readMore" href="" >See More...</a>
-              </div>
-            </div>            
+          </div>
         </div>
 
+    <div class="row portfolio-container">
+
+			<div class="col-lg-3 col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 portfolio-item filter-PersonalProject wow fadeInUp">
+	            <a target="_blank" href="https://bit.ly/3dNZdw3">
+	            <div class="portfolio-wrap">                
+	              <figure>
+	                <img src="https://project-moonshot.github.io/img/myp/ident-pp.jpg" alt="">
+                  <div class="link-clicks">👥 25</div>                      
+
+                </figure>
+	              <div class="portfolio-info">
+	                <h4>Criterion A</h4>
+	                <p>Personal Project</p>
+	              </div>
+	            </div>
+            </div></a>   
+
+			<div class="col-lg-3 col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 portfolio-item filter-LabReport filter-Physics wow fadeInUp">
+	            <a target="_blank" href="#">                      
+	            <div class="portfolio-wrap">
+	              <figure>
+	                <img src="https://project-moonshot.github.io/img/myp/physics-lab.jpg" alt="">
+                  <div class="link-clicks">👥 25</div>  
+	              </figure>
+	              <div class="portfolio-info">
+	                <h4>Lab Report</h4>
+	                <p>🍎 Physics</p>
+	              </div>
+	            </div> 
+            </div></a>     
+
+			<div class="col-lg-3 col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 portfolio-item filter-LabReport filter-Chemistry wow fadeInUp">
+	            <a target="_blank" href="#">                      
+	            <div class="portfolio-wrap">
+	              <figure>
+	                <img src="https://project-moonshot.github.io/img/myp/chem-lab.jpg" alt="">
+                  <div class="link-clicks">👥 25</div>  
+	              </figure>
+	              <div class="portfolio-info">
+	                <h4>Lab Report</h4>
+	                <p>⚗️ Chemistry</p>
+	              </div>
+	            </div> 
+            </div></a>        
+ 
+			<div class="col-lg-3 col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 portfolio-item filter-LabReport filter-Biology wow fadeInUp">
+	            <a target="_blank" href="#">                      
+	            <div class="portfolio-wrap">
+	              <figure>
+	                <img src="https://project-moonshot.github.io/img/myp/bio-lab.jpg" alt="">
+                  <div class="link-clicks">👥 25</div>  
+	              </figure>
+	              <div class="portfolio-info">
+	                <h4>Lab Report</h4>
+	                <p>🔬 Biology</p>
+	              </div>
+	            </div> 
+            </div></a>   
+
+			<div class="col-lg-3 col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 portfolio-item filter-Report filter-Business wow fadeInUp">
+	            <a target="_blank" href="#">                      
+	            <div class="portfolio-wrap">
+	              <figure>
+	                <img src="https://project-moonshot.github.io/img/myp/bus-report.jpg"  alt="">
+                  <div class="link-clicks">👥 25</div>  
+	              </figure>
+	              <div class="portfolio-info">
+	                <h4>Research Report</h4>
+	                <p>🤑 Business</p>
+	              </div>
+	            </div> 
+            </div></a> 
+
+			<div class="col-lg-3 col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 portfolio-item filter-Report filter-Economics wow fadeInUp">
+	            <a target="_blank" href="#">                      
+	            <div class="portfolio-wrap">
+	              <figure>
+	                <img src="https://project-moonshot.github.io/img/myp/econ-report.jpg" alt="">
+                  <div class="link-clicks">👥 25</div>  
+	              </figure>
+	              <div class="portfolio-info">
+	                <h4>Research Report</h4>
+	                <p>💰 Economics</p>
+	              </div>
+	            </div> 
+            </div></a> 
+
+
+        </div>
+        <ul id="portfolio-flters">
+              <li data-filter="*" style="padding-left: 20px; padding-right: 20px; border-radius: 25px"><b>&times;</b> Reset</li>
+              </ul>
       </div>
+      <div style="text-align: center;"><a class="more" href="https://project-moonshot.github.io/contact">Is there another resource you want? Tell Us!</a></div>
 
     </section><!-- #portfolio -->
-  </div>
+
   <!--==========================
     Footer
   ============================-->
