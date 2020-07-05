@@ -44,7 +44,8 @@
   line-height: 1;
   font-family: "Nasa";
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  margin-right: 35px;
 }
 
 #header a{
@@ -296,7 +297,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1042px) {
   #header #logo {
     padding-left: 60px;
   }
@@ -315,7 +316,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 1165px){
+@media (max-width: 1176px){
     #header #logo h1 {
         font-size: 30px;
     }
@@ -339,7 +340,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 921px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -366,7 +367,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .section-header .section-title {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
