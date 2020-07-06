@@ -143,6 +143,7 @@ h6 {
 #portfolio .portfolio-wrap .article:hover h2{
     color: rgba(255,255,255,0.8);
     font-weight: 400;
+    margin-top: -3px;
 }
 
 #portfolio .portfolio-wrap .article:hover h3{
@@ -186,14 +187,11 @@ h6 {
     font-size: 25px;
     padding-top: 5px;
     line-height: 1.2em;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     margin-top: 0px;
     text-align: center;
 }
 
-hr{
-
-}
 
 #portfolio .article h2{
     color: rgb(50,50,50);
@@ -238,6 +236,6 @@ hr{
 }
 
 #portfolio .info {
-    max-width: 100%;
+    width: 100%;
     display: inline-block;
 }
