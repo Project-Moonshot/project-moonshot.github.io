@@ -48,37 +48,7 @@ h6 {
   padding: 0;
 }
 
-/* Back to top button */
 
-.back-to-top {
-  position: fixed;
-  display: none;
-  background-image: url('https://project-moonshot.github.io/img/launch.jpg') ;
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-  line-height: 25px;
-  font-size: 0px;
-  border-radius: 50%;
-  right: 20px;
-  bottom: 20px;
-  transition: background 0.2s;
-  z-index: 11;
-}
-
-.back-to-top:hover {
-  transition: 0.5s;  
-  transform: scale(1.1);
-  box-shadow: 7px 7px 10px #525252;
-  right: 24px;
-  bottom: 24px;
-}
-
-.back-to-top i {
-  padding-top: 12px;
-  color: #fff;
-}
 
 /* Prelaoder */
 
@@ -129,46 +99,6 @@ h6 {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
-
-
-
-.bcrumb {
-  display: block;
-    position: absolute;
-    background: grey;
-    right: 0;
-    width: 90vw;
-    margin-right: 0px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: SFProDisplay, sans-serif;
-    letter-spacing: 0.5px;
-    font-weight: 400;
-    color: white;
-    background-image: url('https://project-moonshot.github.io/img/intro-carousel/3 copy.jpg');
-    font-size: 18px;
-    border-radius: 20px 0 0 20px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.35);
-}
-
-.bcrumb a{
-    color: white;
-    padding: 7px 7px 7px 7px;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.bcrumb .currentThing{
-    font-weight: 750;
-}
-
-.bcrumb a:hover {
-    transition-duration: 0.1s;
-    text-decoration: underline;
-    background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
-    text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
-    text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
 }
 
 

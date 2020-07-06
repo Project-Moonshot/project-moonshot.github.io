@@ -54,7 +54,7 @@
 
 .addRoundness{
     display: block;
-    border-radius: 45px 0px 45px 0px;
+    border-radius: 45px 10px 45px 10px;
     box-shadow: -2px 0px 15px rgba(0,0,0,0.3);
 }
 
@@ -176,4 +176,32 @@
     background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
 }
 
+
+
+a.more{
+  position: relative;
+  display: inline;
+  color: rgba(0,0,0,0.6);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: inline;
+  font-family: SFProDisplay, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    text-decoration: underline;
+  padding-right: 50px;
+
+}
+
+a.more:hover{
+  transition-duration: 0.1s;
+text-decoration: none;
+  color: white;
+background: rgb(255,175,0);
+background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
+}
 
