@@ -133,7 +133,8 @@
 }
 
 .body blockquote {
-    font-family: New York, sans-serif;
+    font-family: New York, serif;
+    font-weight: 600;
     text-align: left;
     padding-left: 20px;
     font-size: 22px;

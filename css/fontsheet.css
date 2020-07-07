@@ -57,7 +57,7 @@
         url('../fonts/SFRounded/subset-SFRounded-Thin.woff') format('woff'),
         url('../fonts/SFRounded/subset-SFRounded-Thin.ttf') format('truetype'),
         url('../fonts/SFRounded/subset-SFRounded-Thin.svg#SFRounded-Thin') format('svg');
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
@@ -148,7 +148,7 @@
         url('../fonts/SFProDisplay/subset-SFProDisplay-ThinItalic.woff') format('woff'),
         url('../fonts/SFProDisplay/subset-SFProDisplay-ThinItalic.ttf') format('truetype'),
         url('../fonts/SFProDisplay/subset-SFProDisplay-ThinItalic.svg#SFProDisplay-ThinItalic') format('svg');
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
     font-display: swap;
 }
@@ -356,7 +356,7 @@
         url('../fonts/SFProDisplay/subset-SFProDisplay-Thin.woff') format('woff'),
         url('../fonts/SFProDisplay/subset-SFProDisplay-Thin.ttf') format('truetype'),
         url('../fonts/SFProDisplay/subset-SFProDisplay-Thin.svg#SFProDisplay-Thin') format('svg');
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
@@ -382,7 +382,7 @@
         url('../fonts/SFProText/subset-SFProText-Thin.woff') format('woff'),
         url('../fonts/SFProText/subset-SFProText-Thin.ttf') format('truetype'),
         url('../fonts/SFProText/subset-SFProText-Thin.svg#SFProText-Thin') format('svg');
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
@@ -512,7 +512,7 @@
         url('../fonts/SFProText/subset-SFProText-ThinItalic.woff') format('woff'),
         url('../fonts/SFProText/subset-SFProText-ThinItalic.ttf') format('truetype'),
         url('../fonts/SFProText/subset-SFProText-ThinItalic.svg#SFProText-ThinItalic') format('svg');
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
     font-display: swap;
 }
@@ -616,7 +616,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-Heavy.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-Heavy.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-Heavy.svg#NewYorkMedium-Heavy') format('svg');
-    font-weight: 500;
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
@@ -629,7 +629,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-RegularItalic.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-RegularItalic.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-RegularItalic.svg#NewYorkMedium-RegularItalic') format('svg');
-    font-weight: 500;
+    font-weight: 400;
     font-style: italic;
     font-display: swap;
 }
@@ -642,7 +642,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-HeavyItalic.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-HeavyItalic.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-HeavyItalic.svg#NewYorkMedium-HeavyItalic') format('svg');
-    font-weight: 500;
+    font-weight: 800;
     font-style: italic;
     font-display: swap;
 }
@@ -655,7 +655,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-Black.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-Black.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-Black.svg#NewYorkMedium-Black') format('svg');
-    font-weight: 500;
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
@@ -668,7 +668,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-Semibold.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-Semibold.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-Semibold.svg#NewYorkMedium-Semibold') format('svg');
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
@@ -681,7 +681,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-BoldItalic.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-BoldItalic.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-BoldItalic.svg#NewYorkMedium-BoldItalic') format('svg');
-    font-weight: 500;
+    font-weight: 700;
     font-style: italic;
     font-display: swap;
 }
@@ -694,7 +694,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-BlackItalic.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-BlackItalic.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-BlackItalic.svg#NewYorkMedium-BlackItalic') format('svg');
-    font-weight: 500;
+    font-weight: 900;
     font-style: italic;
     font-display: swap;
 }
@@ -707,7 +707,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-Regular.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-Regular.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-Regular.svg#NewYorkMedium-Regular') format('svg');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -733,7 +733,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-Bold.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-Bold.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-Bold.svg#NewYorkMedium-Bold') format('svg');
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -746,7 +746,7 @@
         url('../fonts/NewYork/subset-NewYorkMedium-SemiboldItalic.woff') format('woff'),
         url('../fonts/NewYork/subset-NewYorkMedium-SemiboldItalic.ttf') format('truetype'),
         url('../fonts/NewYork/subset-NewYorkMedium-SemiboldItalic.svg#NewYorkMedium-SemiboldItalic') format('svg');
-    font-weight: 500;
+    font-weight: 600;
     font-style: italic;
     font-display: swap;
 }
