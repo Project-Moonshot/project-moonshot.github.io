@@ -54,7 +54,6 @@
 #header #logo h1 a {
   color: black;
   padding-left: 10px;
-  color: black;
   border-radius: 5px;
 }
 
@@ -366,8 +365,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 
-  .section-header .section-title {
-    font-size: 28px;
+  #portfolio .section-header .section-title {
+    font-size: 50px;
   }
 }
 
