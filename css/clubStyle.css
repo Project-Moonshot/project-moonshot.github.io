@@ -1,0 +1,283 @@
+/*
+  Theme Name: BizPage
+  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+/* font converted using font-converter.net. thank you! */
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+/* Sections Header
+--------------------------------*/
+
+a:hover {
+  text-decoration: none;
+}
+
+.section-header h3 {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: orange;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+}
+
+/* Section with background
+--------------------------------*/
+
+.section-bg {
+  background: #f7f7f7;
+}
+
+/* Portfolio Section
+--------------------------------*/
+
+.section-header .section-title {
+    font-size: 70px;
+  }
+
+#portfolio {
+  padding: 60px 0;
+}
+
+#portfolio #portfolio-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio #portfolio-flters li {
+  cursor: pointer;
+  margin: 15px 0px 0px 0px;
+  display: inline-block;
+  padding: 15px 12px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 10px;
+  color: rgba(90,90,90,1);
+  border-radius: 17px;
+  text-transform: none;
+  border: solid;
+  border-width: 1px;
+  background: rgba(255,255,255,0.8);
+  transition: all 250ms ease-in-out;
+  font-family: "SFRounded", sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  border-width: 0px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.15);
+
+
+}
+
+#portfolio #portfolio-flters li:hover {
+  transition-duration: 0s;  
+  color: white;
+    background: rgb(0,60,255);
+    background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.25);
+    text-decoration: none;
+}
+
+
+#portfolio #portfolio-flters li.filter-active {
+  transition: 0.8s;
+  color: #fff;
+  border-color: rgba(0,0,0,0);
+  transform: rotate(360deg);
+  box-shadow: 0px 3px 5px rgba(0,0,25,0.5);  
+background: rgb(255,175,0);
+background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
+
+}
+
+#portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+#portfolio .portfolio-wrap {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  border-radius: 14px 14px 14px 14px;  
+
+}
+
+
+
+#portfolio .portfolio-wrap:hover {
+      transition-duration: 0.35s;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02) translateY(3px);
+  text-decoration: none;
+}
+
+#portfolio .portfolio-wrap:hover .portfolio-info h4{
+  transition-duration: 0s;
+  transform: scale(1.1) translateY(0.2px);
+  color:white;
+  text-decoration: none;
+  }
+
+#portfolio .portfolio-wrap:hover .portfolio-info {
+    color: white;
+    background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
+    text-decoration: none;
+}
+
+#portfolio .blue .portfolio-wrap:hover .portfolio-info {
+  background: rgb(0,198,255);
+  background: linear-gradient(339deg, rgba(0,198,255,1) 0%, rgba(0,17,236,1) 100%);
+}
+
+#portfolio .green .portfolio-wrap:hover .portfolio-info {
+  background: rgb(0,222,145);
+  background: linear-gradient(339deg, rgba(0,222,145,1) 0%, rgba(0,180,18,1) 100%);
+}
+
+#portfolio .portfolio-wrap:hover .portfolio-info p{
+  text-decoration: none;
+    color: white;
+}
+
+
+#portfolio .portfolio-item {
+  position: relative;
+  height: 260px;
+  overflow: hidden;  
+}
+
+#portfolio .portfolio-item figure {
+  background: white;
+  overflow: hidden;
+  height: 150px;
+  position: relative;
+  margin: 0;
+  border-radius: 14px 14px 0 0;
+
+}
+
+#portfolio .portfolio-item figure .link-clicks{
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  line-height: 1;
+  background: rgba(0,0,0,0.6);
+  font-size: 16px;
+  margin: 0 0 0 0;
+  padding: 5px 5px 5px 5px;
+  border-top-left-radius: 8px;
+  color: white;
+  font-family: SFRounded, sans-serif;
+  font-weight: 500;
+}
+
+#portfolio .portfolio-item .portfolio-info {
+  background: #fff;
+  text-align: center;
+  padding-left, padding-right: 0px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  height: 75px;
+  border-radius: 0 0 14px 14px;
+  overflow: wrap;
+}
+
+
+#portfolio .portfolio-item .portfolio-info h4{
+  color: #454444;
+  font-size: 18px;
+  line-height: 0px;
+  font-weight: 650;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+  font-family: "SFProDisplay", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+#portfolio .portfolio-item .portfolio-info p {
+  padding: 0;
+  margin: 0;
+  margin-top: -2px;
+  color: rgba(120,120,120,1);
+  font-family: SFRounded, sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#portfolio .portfolio-container img{
+  width: 125%;
+  height: auto;
+  margin-top: -5%;
+  margin-left: -7%;
+}
+
+#portfolio  a.more{
+  position: relative;
+  display: block;
+  color: rgba(0,0,0,0.6);
+  margin: 0 10vw;
+  padding: 20px 0;
+  text-align: inline;
+  font-family: SFProDisplay, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+    border-radius: 15px;
+    text-decoration: underline;
+    align-items: center;
+
+}
+
+#portfolio  a.more:hover{
+  transition-duration: 0.1s;
+text-decoration: none;
+  color: white;
+background: rgb(255,175,0);
+background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
+}
