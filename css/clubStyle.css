@@ -169,6 +169,11 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
     text-decoration: none;
 }
 
+#portfolio .red .portfolio-wrap:hover .portfolio-info {
+  background: rgb(255,119,119);
+  background: linear-gradient(339deg, rgba(255,119,119,1) 0%, rgba(199,0,0,1) 100%);
+}
+
 #portfolio .blue .portfolio-wrap:hover .portfolio-info {
   background: rgb(0,198,255);
   background: linear-gradient(339deg, rgba(0,198,255,1) 0%, rgba(0,17,236,1) 100%);
