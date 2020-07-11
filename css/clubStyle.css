@@ -169,28 +169,28 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
     text-decoration: none;
 }
 
-#portfolio .red .portfolio-wrap:hover .portfolio-info {
+#portfolio .red .portfolio-wrap .portfolio-info {
   background: rgb(255,119,119);
   background: linear-gradient(339deg, rgba(255,119,119,1) 0%, rgba(199,0,0,1) 100%);
 }
 
-#portfolio .blue .portfolio-wrap:hover .portfolio-info {
+#portfolio .blue .portfolio-wrap .portfolio-info {
   background: rgb(0,198,255);
   background: linear-gradient(339deg, rgba(0,198,255,1) 0%, rgba(0,17,236,1) 100%);
 }
 
-#portfolio .green .portfolio-wrap:hover .portfolio-info {
+#portfolio .green .portfolio-wrap .portfolio-info {
   background: rgb(0,222,145);
   background: linear-gradient(339deg, rgba(0,222,145,1) 0%, rgba(0,180,18,1) 100%);
 }
 
-#portfolio .gradient .portfolio-wrap:hover .portfolio-info {
-  background: rgb(131,58,180);
-  background: linear-gradient(339deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 33%, rgba(252,176,69,1) 66%, rgba(255,239,0,1) 100%);
+#portfolio .gradient .portfolio-wrap .portfolio-info {
+background: rgb(195,0,85);
+background: linear-gradient(339deg, rgba(195,0,85,1) 0%, rgba(0,98,213,1) 100%);
 }
 
 
-#portfolio .portfolio-wrap:hover .portfolio-info p{
+#portfolio .portfolio-wrap .portfolio-info p{
   text-decoration: none;
     color: white;
 }
@@ -212,24 +212,7 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 
 }
 
-#portfolio .portfolio-item figure .link-clicks{
-  position: absolute;
-  display: block;
-  bottom: 0;
-  right: 0;
-  line-height: 1;
-  background: rgba(0,0,0,0.6);
-  font-size: 16px;
-  margin: 0 0 0 0;
-  padding: 5px 5px 5px 5px;
-  border-top-left-radius: 8px;
-  color: white;
-  font-family: SFRounded, sans-serif;
-  font-weight: 500;
-}
-
 #portfolio .portfolio-item .portfolio-info {
-  background: #fff;
   text-align: center;
   padding-left, padding-right: 0px;
   padding-top: 25px;
@@ -241,7 +224,7 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 
 
 #portfolio .portfolio-item .portfolio-info h4{
-  color: #454444;
+  color: white;
   font-size: 18px;
   line-height: 0px;
   font-weight: 650;
@@ -255,7 +238,7 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
   padding: 0;
   margin: 0;
   margin-top: -2px;
-  color: rgba(120,120,120,1);
+  color: white;
   font-family: SFRounded, sans-serif;
   letter-spacing: 0.2px;
   font-weight: 500;
