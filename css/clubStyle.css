@@ -148,7 +148,7 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 
 
 #portfolio .portfolio-wrap:hover {
-      transition-duration: 0.35s;
+      transition-duration: 200ms;
 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   transform: scale(1.02) translateY(3px);
@@ -156,8 +156,8 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 #portfolio .portfolio-wrap:hover .portfolio-info h4{
-  transition-duration: 0s;
-  transform: scale(1.1) translateY(0.2px);
+  transition-duration: 100ms;
+  transform: scale(1.15) translateY(0.2px);
   color:white;
   text-decoration: none;
   }
@@ -170,8 +170,8 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 #portfolio .red .portfolio-wrap .portfolio-info {
-  background: rgb(255,119,119);
-  background: linear-gradient(339deg, rgba(255,119,119,1) 0%, rgba(199,0,0,1) 100%);
+background: rgb(255,47,47);
+background: linear-gradient(339deg, rgba(255,47,47,1) 0%, rgba(161,0,0,1) 100%);
 }
 
 #portfolio .blue .portfolio-wrap .portfolio-info {
@@ -180,15 +180,18 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 #portfolio .green .portfolio-wrap .portfolio-info {
-  background: rgb(0,222,145);
-  background: linear-gradient(339deg, rgba(0,222,145,1) 0%, rgba(0,180,18,1) 100%);
+background: rgb(237,251,0);
+background: linear-gradient(339deg, rgba(237,251,0,1) 0%, rgba(0,130,59,1) 100%);
 }
 
 #portfolio .gradient .portfolio-wrap .portfolio-info {
-background: rgb(0,0,214);
-background: linear-gradient(159deg, rgba(0,0,214,1) 0%, rgba(0,142,255,1) 20%, rgba(108,0,195,1) 40%, rgba(255,0,0,1) 60%, rgba(255,171,0,1) 80%, rgba(255,248,0,1) 100%);
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
+#portfolio .teal .portfolio-wrap .portfolio-info {
+background: rgb(0,255,231);
+background: linear-gradient(339deg, rgba(0,255,231,1) 0%, rgba(0,172,255,1) 100%);}
 
 #portfolio .portfolio-wrap .portfolio-info p{
   text-decoration: none;
@@ -269,7 +272,7 @@ background: linear-gradient(159deg, rgba(0,0,214,1) 0%, rgba(0,142,255,1) 20%, r
 }
 
 #portfolio  a.more:hover{
-  transition-duration: 0.1s;
+  transition-duration: 100ms;
 text-decoration: none;
   color: white;
 background: rgb(255,175,0);

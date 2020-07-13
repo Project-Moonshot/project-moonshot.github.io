@@ -158,7 +158,7 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 .event {
     background: white;
     border-radius: 13px;
-    box-shadow: 0 0 8px pink;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
     padding: 10px;
     vertical-align: middle;
     margin-bottom: 10px;
