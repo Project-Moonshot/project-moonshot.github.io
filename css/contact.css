@@ -1,0 +1,103 @@
+/*
+  Theme Name: BizPage
+  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+/* font converted using font-converter.net. thank you! */
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+/* Sections Header
+--------------------------------*/
+
+a:hover {
+  text-decoration: none;
+}
+
+.section-header h3 {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: orange;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+}
+
+/* Section with background
+--------------------------------*/
+
+.section-bg {
+  background: #f7f7f7;
+}
+
+/* Portfolio Section
+--------------------------------*/
+
+.section-header .section-title {
+    font-size: 70px;
+  }
+
+ a.openNew{
+  display: block;
+  position: relative;
+  color: rgba(0,0,0,0.6);
+  margin: 0;
+  padding: 5px 5px;
+  text-align: right;
+  font-family: SFProText, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+    border-radius: 15px;
+    text-decoration: underline;
+    align-items: center;
+
+}
+
+a:hover{
+  transition-duration: 0.1s;
+text-decoration: none;
+  color: white;
+background: rgb(255,175,0);
+background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
+}
