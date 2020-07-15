@@ -97,10 +97,10 @@ img{
     
 }
 .body img{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px ;
+    width: 48.9%;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
