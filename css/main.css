@@ -301,8 +301,15 @@ h6 {
 
 }
 
+#introduction .byline a{
+  color: white;
+}
 
-
-
+#introduction .byline a:hover{
+  transition-duration: 150ms;
+  color: black;
+  background: white;
+  box-shadow: 0 0 10px white;
+}
 
 
