@@ -250,12 +250,13 @@ h6 {
 #introduction .row .quicklinks h2 a{
   padding: 10px;
   border-radius: 14px;
-  color: rgb(255,255,255);
+  color: rgba(255,255,255,0.9);
   font-weight: 500;
   font-family: SFRounded, sans-serif;
 }
 
 #introduction .row .quicklinks h2 a:hover{
+  color: white;
     transition-duration: 0.1s;
     box-shadow: 0 0 15px rgba(255,255,255,0.75);
     background: rgb(0,60,255);
