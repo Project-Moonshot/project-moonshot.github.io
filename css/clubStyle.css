@@ -169,6 +169,12 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
     text-decoration: none;
 }
 
+
+#portfolio .orange .portfolio-wrap .portfolio-info {
+background: rgb(255,195,0);
+    background: linear-gradient(339deg, rgba(255,195,0,1) 0%, rgba(255,113,0,1) 100%);
+}
+
 #portfolio .red .portfolio-wrap .portfolio-info {
 background: rgb(255,47,47);
 background: linear-gradient(339deg, rgba(255,47,47,1) 0%, rgba(161,0,0,1) 100%);

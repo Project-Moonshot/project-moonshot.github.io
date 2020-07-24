@@ -5,6 +5,9 @@
   License: https://bootstrapmade.com/license/
 */
 
+.main {
+    
+}
 
 .addRoundness{
     display: block;
@@ -100,9 +103,11 @@ img{
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px ;
-    width: 48.9%;
+    width: 48%;
+    margin-right: 1%;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
 }
 
 .body figcaption{
@@ -202,5 +207,10 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
     font-style: normal;
 }
 
+@media (max-width: 921px) {
+    .body img{
+        width: 100%;
+    }
+}
 
 
