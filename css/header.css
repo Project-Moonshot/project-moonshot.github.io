@@ -53,8 +53,13 @@
 }
 #header #logo h1 a {
   color: black;
-  padding-left: 10px;
+  padding-left: 0px;
+  padding-right: 10px;
   border-radius: 5px;
+}
+
+#header #logo a img{
+  height: 35px;
 }
 
 #header #logo h1 a:hover{
