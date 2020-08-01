@@ -90,13 +90,15 @@ text-decoration: none;
 
 #header .nav-menu a.current{
   font-weight: 800;
+        background: rgba(0,60,255,0.1);
+        background: linear-gradient(339deg, rgba(0,60,255,0.1) 0%, rgba(0,142,255,0.1) 100%);
 }
 
 #header .nav-menu a.current:hover{
-  background: none;
   color: black;
   cursor: default;
-
+        background: white;
+        background: linear-gradient(339deg, rgba(0,60,255,0.1) 0%, rgba(0,142,255,0.1) 100%);  
 }
 
 #header .nav-menu a:hover{
@@ -250,6 +252,20 @@ color: black;
         background: linear-gradient(339deg, rgba(0,60,255,1) 0%, rgba(0,142,255,1) 100%);
     box-shadow: 0px 3px 5px rgba(0,0,0,0.25);
     color: white;
+}
+
+#mobile-nav ul li a.current {
+    color: black;
+        background: white;
+        background: linear-gradient(339deg, rgba(0,60,255,0.1) 0%, rgba(0,142,255,0.1) 100%);      
+}
+
+#mobile-nav ul li a.current:hover {
+    transition-duration: 0.1s;
+    color: black;
+        background: white;
+        background: linear-gradient(339deg, rgba(0,60,255,0.1) 0%, rgba(0,142,255,0.1) 100%);    
+        box-shadow: none;  
 }
 
 #mobile-nav ul li li {
