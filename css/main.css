@@ -314,3 +314,62 @@ h6 {
 }
 
 
+
+#portfolio a{
+  font-family: SFRounded, sans-serif;
+  display: block;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  color: rgb(40,40,40);
+  text-align: center;
+}
+
+#portfolio a h1{
+  margin-bottom: 0;
+}
+
+#portfolio a {
+  font-family: SFProDisplay, sans-serif;
+  font-size: 20px;
+}
+
+#portfolio a.myp {
+}
+
+#portfolio a.dp {
+}
+
+#portfolio a.myp:hover{
+  transition-duration: 100ms;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+background: rgb(144,238,144);
+background: linear-gradient(339deg, rgba(144,238,144,1) 0%, rgba(17,166,0,1) 100%);
+color: white; 
+transform: scale(1.02);
+}
+
+#portfolio a.dp:hover{
+  transition-duration: 100ms;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+background: rgb(0,255,192);
+background: linear-gradient(339deg, rgba(0,255,192,1) 0%, rgba(0,52,255,1) 100%);
+color: white;
+transform: scale(1.02);
+}
+
+#portfolio a h1{
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
