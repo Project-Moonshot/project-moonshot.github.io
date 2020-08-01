@@ -246,9 +246,9 @@ background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 #portfolio .portfolio-container img{
-  width: 125%;
+  width: 130%;
   height: auto;
-  margin-top: -5%;
+  margin-top: -7%;
   margin-left: -7%;
 }
 
