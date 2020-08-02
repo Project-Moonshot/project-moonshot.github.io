@@ -343,8 +343,8 @@ h6 {
 #portfolio a.myp:hover{
   transition-duration: 100ms;
   box-shadow: 0 0 20px rgba(0,0,0,0.15);
-background: rgb(144,238,144);
-background: linear-gradient(339deg, rgba(144,238,144,1) 0%, rgba(17,166,0,1) 100%);
+background: rgb(255,112,112);
+background: linear-gradient(339deg, rgba(255,112,112,1) 0%, rgba(205,0,0,1) 100%);
 color: white; 
 transform: scale(1.02);
 }
@@ -362,6 +362,10 @@ transform: scale(1.02);
   font-weight: 700;
 }
 
+#portfolio a h6 {
+  font-size: 75px;
+  margin-bottom: 0px;
+}
 
 
 
