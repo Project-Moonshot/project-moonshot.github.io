@@ -358,6 +358,10 @@ color: white;
 transform: scale(1.02);
 }
 
+#portfolio a:hover h6{
+  text-shadow: 0 0 20px rgba(255,255,255,0.95);
+}
+
 #portfolio a h1{
   font-weight: 700;
 }
@@ -365,6 +369,10 @@ transform: scale(1.02);
 #portfolio a h6 {
   font-size: 75px;
   margin-bottom: 0px;
+  display: inline;
+  padding: 0 10px;
+  border-radius: 35px;
+  text-shadow: 0 0 0px rgba(0,0,0,0.35);
 }
 
 
