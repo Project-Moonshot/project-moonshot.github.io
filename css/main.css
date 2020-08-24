@@ -319,25 +319,33 @@ h6 {
   font-family: SFRounded, sans-serif;
   display: block;
   padding: 20px;
-  border-radius: 25px;
+  border-radius: 55px;
   text-align: center;
-  color: rgb(40,40,40);
+  color: rgb(70,70,70);
   text-align: center;
 }
 
 #portfolio a h1{
   margin-bottom: 0;
+  color: rgb(35,35,35);
+  font-weight: 800;
 }
 
 #portfolio a {
-  font-family: SFProDisplay, sans-serif;
+  font-family: SFRounded, sans-serif;
   font-size: 20px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.05);
+  padding: 25px 60px;
+  font-weight: 400;
 }
 
 #portfolio a.myp {
+  background: white;
+
 }
 
 #portfolio a.dp {
+  background: white;
 }
 
 #portfolio a.myp:hover{
@@ -359,11 +367,11 @@ transform: scale(1.02);
 }
 
 #portfolio a:hover h6{
-  text-shadow: 0 0 20px rgba(255,255,255,0.95);
+  text-shadow: 0 0 20px white, 0 0 30px white, 0 0 30px white, 0 0 30px white, 0 0 30px white;
 }
 
-#portfolio a h1{
-  font-weight: 700;
+#portfolio a:hover h1{
+  color: white;
 }
 
 #portfolio a h6 {
