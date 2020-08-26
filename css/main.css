@@ -265,10 +265,11 @@ h6 {
     text-shadow: 0 0 7px rgba(0,0,0,0.1);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #introduction .row .quicklinks h2{
     font-size: 20px;
   }
+
 }
 
 .updateNum {
@@ -383,7 +384,37 @@ transform: scale(1.02);
   text-shadow: 0 0 0px rgba(0,0,0,0.35);
 }
 
+@media (max-width: 800px) {
+  #portfolio a h6 {
+    font-size: 60px;
+  }
 
+  #portfolio a{
+    padding: 10px;
+  }
+
+  #portfolio a h1{
+    font-size: 25px;
+  }
+    
+  #portfolio a{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  #portfolio a {
+    padding: 5px;
+  }
+
+  #portfolio a h1{
+    font-size: 20px;
+  }
+
+  #portfolio a{
+    font-size: 18px;
+  }
+}
 
 
 
