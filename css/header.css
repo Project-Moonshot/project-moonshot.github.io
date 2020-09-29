@@ -318,7 +318,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-@media (min-width: 1042px) {
+@media (min-width: 1106px) {
   #header #logo {
     padding-left: 60px;
   }
@@ -350,7 +350,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 983px){
 
   #nav-menu-container {
     display: none;

@@ -1,0 +1,15 @@
+#noPage img {
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+  margin-bottom: 15px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.35);
+
+}
+
+@media (max-width: 900px){
+	#noPage img{
+		width: 80%;
+		margin-left: 10%;
+	}
+}

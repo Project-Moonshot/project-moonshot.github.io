@@ -36,27 +36,6 @@ a:hover {
   padding-bottom: 15px;
 }
 
-.section-header h3::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-
-.section-header h3::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: orange;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
 
 .section-header p {
   text-align: center;
@@ -275,3 +254,32 @@ text-decoration: none;
 background: rgb(255,175,0);
 background: linear-gradient(339deg, rgba(255,175,0,1) 0%, rgba(255,0,0,1) 100%);
 }
+
+.collegecounseling a{
+  color: #ff4b0d
+;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.collegecounseling a:hover{
+  background: rgb(255,158,0);
+background: linear-gradient(339deg, rgba(255,158,0,1) 35%, rgba(255,0,0,1) 100%);
+transform: scale(1.05);
+color: white;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
